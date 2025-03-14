@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+body {
+    background-color:hsl(0, 0%, 95%) ;
+}
+
+.box1 {
+    background-color:hsl(31, 77%, 52%) ;
+    height: 380px;
+    padding-inline: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box2 {
+    background-color:  hsl(184, 100%, 22%);
+    height: 380px;
+    padding-inline: 40px;
+}
+
+.box3 {
+    border: 100px;
+    background-color: hsl(179, 100%, 13%);
+    height: 380px;
+    padding-inline: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 90px;
+    text-align: left;
+    color: white;
+    flex-wrap: nowrap;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.p1, .p2, .p3 {
+    font-family: "Lexend Deca", serif;
+    color:hsla(0, 0%, 100%, 0.75)  ;
+    font-weight: 400px;
+    font-weight: 1px;
+    font-size: 10px;
+    line-height: 16px;
+    
+}
+
+.learn1 {
+    color:hsl(31, 77%, 52%);
+    border-radius: 50px;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 50px;  
+}
+
+.learn2 {
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    margin-top: 50px;  
+}
+
+.learn3 {
+    color: hsl(179, 94%, 12%);
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    margin-top:50px;
+}
+
+.car1, .car2, .car3 {
+    margin-top: 40px;
+}
+
+
+.h1, .h2, .h3 {
+    font-family: "Big Shoulders Display", serif;
+}
+.learn1:hover {
+    background-color:hsl(31, 77%, 52%) ;
+    cursor: pointer;
+    border: solid white;
+    color: white;
+}
+    
+    
+.learn2:hover {
+    background-color:hsl(184, 100%, 22%) ;
+    cursor: pointer;
+    border: solid white;
+    color: white;
+}
+
+.learn3:hover {
+    background-color:hsl(179, 94%, 12%);
+    cursor: pointer;
+    border: solid white;
+    color: white;
+}
+
